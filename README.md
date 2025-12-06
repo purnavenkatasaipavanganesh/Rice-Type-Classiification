@@ -35,15 +35,12 @@ The dataset is publicly available on [UCI Machine Learning Repository](https://a
 
 We trained and evaluated several models including:
 
-* Logistic Regression
-* Decision Tree
-* Random Forest
-* Support Vector Machine (SVM)
-* K-Nearest Neighbors (KNN)
-
+* Convolutional Neural Network
+* ResNet50
+* MobileNetV2
 ### Best Performing Model:
 
-> `Random Forest` achieved the highest accuracy with optimal hyperparameters.
+> `MobileNetV2` achieved the highest accuracy with optimal hyperparameters.
 
 ## 🛠️ Tech Stack
 
@@ -55,25 +52,12 @@ We trained and evaluated several models including:
 
 ## 📈 Results
 
-* Accuracy: 95%+
+* Accuracy: 98%+
 * Confusion Matrix and Classification Report used to evaluate performance.
 * Feature importance and dimensionality reduction techniques like PCA were explored.
 
 
 
-## 📁 Project Structure
-
-```
-rice-type-classification/
-│
-├── data/                    # Raw and processed dataset
-├── notebooks/               # Jupyter Notebooks
-├── models/                  # Saved models
-├── assets/                  # Images for README
-├── rice_classification.ipynb
-├── requirements.txt
-└── README.md
-```
 
 ## 🤝 Contributing
 
